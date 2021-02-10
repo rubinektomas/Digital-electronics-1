@@ -7,13 +7,7 @@
 ##### H5
 ###### H6
 
-Alternatively, for H1 and H2, an underline-ish style:
 
-Alt-H1
-======
-
-Alt-H2
-------
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -41,3 +35,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 + Or pluses
 
 [I'm an inline-style link](https://www.google.com)
+
+```
+cosicosi/cosi
+```
