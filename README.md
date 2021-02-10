@@ -1,6 +1,4 @@
 # Digital-electronics-1
-
-# H1
 ## H2
 ### H3
 #### H4
@@ -15,7 +13,6 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
 Combined emphasis with **asterisks and _underscores_**.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
 
 1. First ordered list item
 2. Another item
