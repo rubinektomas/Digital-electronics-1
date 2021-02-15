@@ -34,4 +34,32 @@ end architecture dataflow;
 - [EDA playground link](https://www.edaplayground.com/x/aN_a)
 
 ### 3. Distributive laws
+- VHDL code:
+```
+library ieee;               
+use ieee.std_logic_1164.all;
+entity gates is
+    port(
+        x    : in  std_logic;         
+        y    : in  std_logic;        
+        z	   : in  std_logic;
+        f1    : out std_logic;        
+        f2    : out std_logic   
+               
+    );
+end entity gates;
+
+architecture dataflow of gates is
+begin
+    f1  <= not(((x and y) or (x and z))  xor   (x and (y or z)));
+    f2 <= not(((x or y) and (x or z)) xor  (x or (y and z)));
+    
+
+end architecture dataflow;
+```
+
+- Screenshot:
+![alt text](https://github.com/rubinektomas/Digital-electronics-1/blob/main/Labs/01-gates/distribution.PNG "Distribution")
+
+- [EDA playground link](https://www.edaplayground.com/x/MQKK)
 
