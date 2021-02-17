@@ -32,3 +32,8 @@ g b<a =
 ( not b1 + not b0 + a1 + not a0 ) *
 ( not b1 + not b0 + not a1 + a0 ) *
 ( not b1 + not b0 + not a1 + not a0 ) *
+
+
+grater_SoP_min = b1 * not a1 + b1 * b0 * not a0 + b0 * not a0 * not a1 = 
+
+less_PoS_min = ( not b1 + a1 ) * (not b0 + a1) * (a0 + a1) * (not b0 + not b1) * ( not b1 + a0 + not a1)
