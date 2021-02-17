@@ -25,7 +25,7 @@
 
 |   x    |   00    |   01    |   11    |   10    |
 | :----: | :-----: | :-----: | :-----: | :-----: |
-| **00** | #1 |    0    |    0    |    0    |
+| **00** | ***1*** |    0    |    0    |    0    |
 | **01** |    0    | ***1*** |    0    |    0    |
 | **11** |    0    |    0    | ***1*** |    0    |
 | **10** |    0    |    0    |    0    | ***1*** |
@@ -63,8 +63,15 @@ g b<a =
 
 grater_SoP_min = b1 * not a1 + b1 * b0 * not a0 + b0 * not a0 * not a1 = 
 
-less_PoS_min = ( not b1 + a1 ) * (not b0 + a1) * (a0 + a1) * (not b0 + not b1) * ( not b1 + a0 + not a1)
+    less_PoS_min = ( not b1 + a1 ) * (not b0 + a1) * (a0 + a1) * (not b0 + not b1) * ( b1 + a0 + not a1)
     
     (/a0 + /b1)
 
 ```
+
+$$
+grater\_SoP\_min = b1 \cdot \overline{a1} + b1 \cdot b0 \cdot \overline{a0} + b0 \cdot \overline{a0} \cdot \overline{a1}
+$$
+
+https://www.edaplayground.com/x/Dsfr
+
