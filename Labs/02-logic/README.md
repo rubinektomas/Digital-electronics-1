@@ -21,4 +21,14 @@
 ```
 f b=a = not b1 * not b2 * not a1 * not a0  +  not b1 * b0 * a1 * a0  +   b1* not b0 * a1 * not a0 +   b1* b0 * a1 * a0
 
-
+g b<a = 
+( b1 + b0 + a1 + a0 ) *
+( b1 + not b0 + a1 + a0 ) *
+( b1 + not b0 + a1 + not a0 ) *
+( not b1 + b0 + a1 + a0 ) *
+( not b1 + b0 + a1 + not a0 ) *
+( not b1 + b0 + not a1 + a0 ) *
+( not b1 + not b0 + a1 + a0 ) *
+( not b1 + not b0 + a1 + not a0 ) *
+( not b1 + not b0 + not a1 + a0 ) *
+( not b1 + not b0 + not a1 + not a0 ) *
