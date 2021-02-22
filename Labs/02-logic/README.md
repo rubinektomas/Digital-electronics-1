@@ -60,6 +60,8 @@
 
 ![image-20210222094729055](image-20210222094729055.png)
 
+**Link to playground:**
+
 https://www.edaplayground.com/x/8TNV
 
 ## 03
@@ -90,7 +92,7 @@ begin
 end architecture Behavioral;
 ```
 
-**testbech.vhd**
+testbech.vhd****
 
 ```vhdl
 library ieee;
@@ -213,7 +215,11 @@ end architecture testbench;
 
 ```
 
+**Console output:**
+
 ![image-20210222100705879](image-20210222100705879.png)
+
+**Link to playground:**
 
 https://www.edaplayground.com/x/Dsfr
 
