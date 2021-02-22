@@ -92,7 +92,7 @@ begin
 end architecture Behavioral;
 ```
 
-testbech.vhd****
+**testbech.vhd**
 
 ```vhdl
 library ieee;
