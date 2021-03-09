@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  3 14:01:47 2021
+# Process ID: 15452
+# Current directory: D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23296 D:\Documents\Rubinek\Digital-electronics-1\Labs\03-vivado\tb_mux_2bit_new\tb_mux_2bit_new.xpr
+# Log file: D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/vivado.log
+# Journal file: D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.xpr
+pdate_compile_order -fileset sources_1
+close [ open D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sources_1/new/hex_7seg.vhd w ]
+add_files D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sources_1/new/hex_7seg.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_hex_7seg.vhd w ]
+add_files -fileset sim_1 D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_hex_7seg.vhd
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_mux_2bit_new.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_mux_2bit_new.vhd
+export_ip_user_files -of_objects  [get_files D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sources_1/new/mux_2bit_new.vhd] -no_script -reset -force -quiet
+remove_files  D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sources_1/new/mux_2bit_new.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+close_project
+open_project C:/Users/tomas/Documents/04-segment/display/display.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_hex_7seg.tcl
+close [ open C:/Users/tomas/Documents/04-segment/display/display.srcs/sources_1/new/top.vhd w ]
+add_files C:/Users/tomas/Documents/04-segment/display/display.srcs/sources_1/new/top.vhd
+update_compile_order -fileset sources_1
+file mkdir C:/Users/tomas/Documents/04-segment/display/display.srcs/constrs_1
+file mkdir C:/Users/tomas/Documents/04-segment/display/display.srcs/constrs_1/new
+close [ open C:/Users/tomas/Documents/04-segment/display/display.srcs/constrs_1/new/nexys-a7-50t.xdc w ]
+add_files -fileset constrs_1 C:/Users/tomas/Documents/04-segment/display/display.srcs/constrs_1/new/nexys-a7-50t.xdc
+update_compile_order -fileset sources_1
+run all
+close_sim

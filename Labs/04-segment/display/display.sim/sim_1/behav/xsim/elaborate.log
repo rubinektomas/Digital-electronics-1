@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 6003d94a4ba74e2793e66913707c8791 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_hex_7seg_behav xil_defaultlib.tb_hex_7seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3219] choice '"1001"' is already covered [D:/Documents/Rubinek/Digital-electronics-1/Labs/04-segment/display/display.srcs/sources_1/new/hex_7seg.vhd:82]
+ERROR: [VRFC 10-3219] choice '"1110"' is already covered [D:/Documents/Rubinek/Digital-electronics-1/Labs/04-segment/display/display.srcs/sources_1/new/hex_7seg.vhd:105]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_hex_7seg in library work failed.

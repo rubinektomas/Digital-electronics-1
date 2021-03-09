@@ -2,5 +2,7 @@
 2020.2
 Nov 18 2020
 09:47:47
-D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_mux_2bit_new.vhd,1614175001,vhdl,,,,tb_mux_2bit_new,,,,,,,,
+D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_hex_7seg.vhd,1614776704,vhdl,,,,tb_hex_7seg,,,,,,,,
+D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_mux_2bit_new.vhd,1614629907,vhdl,,,,tb_mux_2bit_new,,,,,,,,
+D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sources_1/new/hex_7seg.vhd,1614776668,vhdl,D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_hex_7seg.vhd,,,hex_7seg,,,,,,,,
 D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sources_1/new/mux_2bit_new.vhd,1614629789,vhdl,D:/Documents/Rubinek/Digital-electronics-1/Labs/03-vivado/tb_mux_2bit_new/tb_mux_2bit_new.srcs/sim_1/new/tb_mux_2bit_new.vhd,,,mux_2bit_new,,,,,,,,
