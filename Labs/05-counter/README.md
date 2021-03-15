@@ -181,5 +181,6 @@ end architecture Behavioral;
 
 * Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments on your own. The image can be drawn on a computer or by hand.
 
-![Untitled Diagram](Untitled Diagram.svg)
 
+
+![Untitled Diagram](Untitled Diagram.png)
