@@ -2,13 +2,14 @@
 # Lab 5: Binary counter
 1. Preparation tasks (done before the lab at home). Submit:
 - Figure or table with connection of push buttons on Nexys A7 board,
-| Button | Input on board | Voltage |
-| :----: | :------------: | :-----: |
-|  BTNL  |      P17       |  3,3 V  |
-|  BTNR  |      M17       |  3,3 V  |
-|  BTNU  |      M18       |  3,3 V  |
-|  BTND  |      P18       |  3,3 V  |
-|  BTNC  |      N17       |  3,3 V  |
+
+| **Button** | **Input on board** | **Voltage** |
+| :-: | :-: | :-: |
+|    BTNL    |      P17       |    3,3 V    |
+|    BTNR    |      M17       |    3,3 V    |
+|    BTNU    |      M18       |    3,3 V    |
+|    BTND    |      P18       |    3,3 V    |
+|    BTNC    |      N17       |    3,3 V    |
 
 - Table with calculated values.
 
