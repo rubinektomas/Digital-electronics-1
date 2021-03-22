@@ -193,7 +193,7 @@ end architecture Behavioral;
 
    - Image of the driver schematic. The image can be drawn on a computer or by hand.
 
-   ![image-20210322214606904](image-20210322214606904.png)
+   ![image-20210322214606904](Skener_20210322.png)
 
    
 
