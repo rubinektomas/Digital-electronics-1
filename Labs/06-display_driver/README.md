@@ -193,7 +193,7 @@ end architecture Behavioral;
 
    - Image of the driver schematic. The image can be drawn on a computer or by hand.
 
-   ![image-20210322214606904](D:\Documents\Rubinek\Digital-electronics-1\Labs\06-display_driver\image-20210322214606904.png)
+   ![image-20210322214606904](image-20210322214606904.png)
 
    
 
