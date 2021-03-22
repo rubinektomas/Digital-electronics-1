@@ -2,3 +2,6 @@ Running: xsim.dir/tb_cnt_up_down_behav/xsimk.exe -simmode gui -wdb tb_cnt_up_dow
 Design successfully loaded
 Design Loading Memory Usage: 5836 KB (Peak: 5836 KB)
 Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 6528 KB (Peak: 6528 KB)
+Simulation CPU Usage: 249 ms
