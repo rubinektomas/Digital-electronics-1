@@ -136,7 +136,7 @@
 
    - Screenshot with simulated time waveforms; always display all inputs and outputs,
      - *Display only important inputs because all of them wouldn't fit the screen.*
-  - *Time of "clock enable" is shorted to only g_MAX = 4 to make simulation more readable and shorten simulation time.* 
+     - *Time of "clock enable" is shorted to only g_MAX = 4 to make simulation more readable and shorten simulation time.* 
    
 ![testbench](testbench.PNG)
    
