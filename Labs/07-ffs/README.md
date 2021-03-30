@@ -297,4 +297,5 @@ Write characteristic equations and complete truth tables for D, JK, T flip-flops
    
     * Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
 
-![IMG_0938](IMG_0938.JPG)
+![IMG_0938](IMG_0939.JPG)
+
