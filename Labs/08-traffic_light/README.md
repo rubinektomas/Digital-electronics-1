@@ -20,6 +20,7 @@
 
 2. Traffic light controller. Submit:
    * State diagram,
+
 ![vhdl_lab8_2](vhdl_lab8_2.png)
 
    * Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting,
