@@ -19,6 +19,9 @@
 | LD17 | N16, R11, G14 | 1,0,0 | 1,1,0 | 0,1,0 |
 
 2. Traffic light controller. Submit:
+   * State diagram,
+![vhdl_lab8_2](vhdl_lab8_2.png)
+
    * Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting,
 ```vhdl
     p_traffic_fsm : process(clk)
@@ -323,7 +326,7 @@ Directed arcs represent the transitions between states and they are labelled wit
 
 ## Part 3: VHDL code for traffic light controller
 
-Let an intersection contains two one-way streets with a fixed time control system in which traffic lights are configured to turn on the green, yellow, and red color after a given period. If it is red in one direction on the traffic light, it is green in the other, and green in the first direction can only occur when it is red in the other direction, etc.
+Let an interse ction contains two one-way streets with a fixed time control system in which traffic lights are configured to turn on the green, yellow, and red color after a given period. If it is red in one direction on the traffic light, it is green in the other, and green in the first direction can only occur when it is red in the other direction, etc.
 
 > The exercise is inspired by the references [[3]](https://www.youtube.com/watch?v=6_Rotnw1hFM), [[1]](https://www.allaboutcircuits.com/technical-articles/implementing-a-finite-state-machine-in-vhdl/), [[4]](https://vhdlwhiz.com/n-process-state-machine/), while several changes have been made to preserve the programming style from the previous exercises, such as:
 >   * Use `numeric_std` package instead of `IEEE.STD_LOGIC_unsigned`,
