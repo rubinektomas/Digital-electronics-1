@@ -18,7 +18,7 @@
 | LD16 | N15, M16, R12 | 1,0,0 | 1,1,0 | 0,1,0 |
 | LD17 | N16, R11, G14 | 1,0,0 | 1,1,0 | 0,1,0 |
 
-1. Traffic light controller. Submit:
+2. Traffic light controller. Submit:
    * Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting,
 ```vhdl
     p_traffic_fsm : process(clk)
@@ -152,7 +152,7 @@
 
 ![image-20210405152451480](image-20210405152451480.png)
 
-2. Smart controller. Submit:
+3. Smart controller. Submit:
    * State table,
 
 | **> Next state<br />v Current state** | No cars <br />west = 0, east = 0 | Cars from west<br />west = 1, east = 0 | Cars from east<br />west = 0, east = 1 | Cars from both<br />west = 1, east = 1 |
