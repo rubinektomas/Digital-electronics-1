@@ -165,7 +165,7 @@
 | **`SOUTH_WAIT`** | `STOP1` | `STOP1` | `STOP1` | ``STOP1`` |
 
    * State diagram,
-![vhdl lab8](vhdl lab8.png)
+![vhdl lab8](vhdl_lab8.png)
    *  Listing of VHDL code of sequential process `p_smart_traffic_fsm` with syntax highlighting.
 
 ```vhdl
@@ -540,13 +540,12 @@ Use [git commands](https://github.com/tomas-fryza/Digital-electronics-1/wiki/Use
     * Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting,
     * Listing of VHDL code of combinatorial process `p_output_fsm` with syntax highlighting,
     * Screenshot(s) of the simulation, from which it is clear that controller works correctly.
-    <!--* Listing of VHDL architecture of the top layer.-->
-
+    
 3. Smart controller. Submit:
     * State table,
     * State diagram,
     
-    ![vhdl lab8](vhdl lab8.png)
+    ![vhdl lab8](vhdl_lab8.png)
     
     * Listing of VHDL code of sequential process `p_smart_traffic_fsm` with syntax highlighting.
 
